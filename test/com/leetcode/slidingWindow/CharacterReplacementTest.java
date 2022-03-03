@@ -1,4 +1,5 @@
-import com.leetcode.slidingWindow.CharacterReplacement;
+package com.leetcode.slidingWindow;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

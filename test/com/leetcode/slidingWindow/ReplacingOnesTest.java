@@ -1,4 +1,5 @@
-import com.leetcode.slidingWindow.ReplacingOnes;
+package com.leetcode.slidingWindow;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
