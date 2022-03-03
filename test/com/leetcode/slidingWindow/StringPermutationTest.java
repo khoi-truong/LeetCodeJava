@@ -1,4 +1,4 @@
-import com.leetcode.slidingwindow.StringPermutation;
+import com.leetcode.slidingWindow.StringPermutation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

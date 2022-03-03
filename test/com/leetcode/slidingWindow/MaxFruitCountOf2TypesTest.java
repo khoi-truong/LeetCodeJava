@@ -1,4 +1,4 @@
-import com.leetcode.slidingwindow.MaxFruitCountOf2Types;
+import com.leetcode.slidingWindow.MaxFruitCountOf2Types;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

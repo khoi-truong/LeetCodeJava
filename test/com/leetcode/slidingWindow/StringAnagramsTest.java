@@ -1,4 +1,4 @@
-import com.leetcode.slidingwindow.StringAnagrams;
+import com.leetcode.slidingWindow.StringAnagrams;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

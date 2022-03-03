@@ -1,4 +1,4 @@
-package com.leetcode.slidingwindow;
+package com.leetcode.slidingWindow;
 
 public class MaxSum {
     public static int findMaxSumSubArray(int k, int[] arr) {

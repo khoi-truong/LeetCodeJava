@@ -1,4 +1,4 @@
-import com.leetcode.slidingwindow.WordConcatenation;
+import com.leetcode.slidingWindow.WordConcatenation;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;

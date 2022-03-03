@@ -1,7 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import com.leetcode.slidingwindow.LongestSubstringKDistinct;
+import com.leetcode.slidingWindow.LongestSubstringKDistinct;
 
 public class LongestSubstringKDistinctTest {
     @Test

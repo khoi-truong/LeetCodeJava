@@ -1,4 +1,4 @@
-package com.leetcode.slidingwindow;
+package com.leetcode.slidingWindow;
 
 public class MinSizeSubArraySum {
     public static int findMinSubArray(int S, int[] arr) {

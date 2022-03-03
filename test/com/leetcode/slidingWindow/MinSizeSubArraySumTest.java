@@ -1,7 +1,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import com.leetcode.slidingwindow.MinSizeSubArraySum;
+import com.leetcode.slidingWindow.MinSizeSubArraySum;
 
 public class MinSizeSubArraySumTest {
     @Test
