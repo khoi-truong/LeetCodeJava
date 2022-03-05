@@ -1,8 +1,6 @@
 package com.leetcode.twoPointers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class TripletSumCloseToTarget {
     public static int searchTriplet(int[] arr, int targetSum) {

@@ -6,7 +6,7 @@ public class SortedArraySquares {
         int left = 0;
         int right = arr.length - 1;
         int squareIndex = arr.length - 1;
-        while (left < right) {
+        while (left <= right) {
             int leftSquare = arr[left] * arr[left];
             int rightSquare = arr[right] * arr[right];
             if (leftSquare < rightSquare) {

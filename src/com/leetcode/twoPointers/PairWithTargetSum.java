@@ -2,7 +2,7 @@ package com.leetcode.twoPointers;
 
 public class PairWithTargetSum {
     public static int[] search(int[] arr, int targetSum) {
-        if (arr.length < 2 || arr == null) {
+        if (arr.length < 2) {
             return new int[] {};
         }
         int left = 0;

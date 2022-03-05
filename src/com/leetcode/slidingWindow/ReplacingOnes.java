@@ -10,7 +10,6 @@ public class ReplacingOnes {
         int maxLength = 0;
         int windowStart = 0;
         int maxRepeatOneCount = 0;
-        HashMap<Character, Integer> letterFrequencies = new HashMap<>();
         for (int windowEnd = 0; windowEnd < arr.length; windowEnd++) {
             int rightChar = arr[windowEnd];
             if (rightChar == 1) {

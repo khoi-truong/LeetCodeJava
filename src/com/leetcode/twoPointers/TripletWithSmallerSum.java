@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TripletWithSmallerSum {
     public static int searchTriplets(int[] arr, int target) {
         int count = 0;
-        if (arr == null | arr.length < 3) {
+        if (arr == null || arr.length < 3) {
             return count;
         }
         Arrays.sort(arr);

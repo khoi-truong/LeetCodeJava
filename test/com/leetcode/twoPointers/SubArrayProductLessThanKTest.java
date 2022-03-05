@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SubarrayProductLessThanKTest {
+public class SubArrayProductLessThanKTest {
     @Test
     void test1() {
         assertEquals(
@@ -18,7 +18,7 @@ public class SubarrayProductLessThanKTest {
                         List.of(5, 3),
                         List.of(10)
                 ),
-                SubarrayProductLessThanK.findSubarrays(new int[]{2, 5, 3, 10}, 30)
+                SubArrayProductLessThanK.findSubArrays(new int[]{2, 5, 3, 10}, 30)
         );
     }
 
@@ -34,7 +34,7 @@ public class SubarrayProductLessThanKTest {
                         List.of(5),
                         List.of(6, 5)
                 ),
-                SubarrayProductLessThanK.findSubarrays(new int[]{8, 2, 6, 5}, 50)
+                SubArrayProductLessThanK.findSubArrays(new int[]{8, 2, 6, 5}, 50)
         );
     }
 }
