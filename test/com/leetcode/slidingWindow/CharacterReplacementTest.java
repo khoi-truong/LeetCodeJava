@@ -1,27 +1,28 @@
 package com.leetcode.slidingWindow;
 
+import com.leetcode.twoPointers.BackspaceCompare;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CharacterReplacementTest {
     @Test
     void test1() {
-        assertEquals(5, CharacterReplacement.findLength("aabccbb",2));
+        assertTrue(BackspaceCompare.compare("xy#z", "xzz#"));
     }
 
     @Test
     void test2() {
-        assertEquals(4, CharacterReplacement.findLength("abbcb",1));
+        assertFalse(BackspaceCompare.compare("xy#z", "xyz#"));
     }
 
     @Test
     void test3() {
-        assertEquals(3, CharacterReplacement.findLength("abccde",1));
+        assertTrue(BackspaceCompare.compare("xp#", "xyz##"));
     }
 
     @Test
     void test4() {
-        assertEquals(16, CharacterReplacement.findLength("abbbaaabcccfaaaaaaftiftaaaaaaqefsfaaaaaaarhhhhhhhhhbnchhhh",3));
+        assertTrue(BackspaceCompare.compare("xywrrmp", "xywrrmu#p"));
     }
 }
