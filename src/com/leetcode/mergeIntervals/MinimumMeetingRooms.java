@@ -8,10 +8,12 @@ public class MinimumMeetingRooms {
             return 0;
         meetings.sort(Comparator.comparingInt(meeting -> meeting.start));
         PriorityQueue<Meeting> minHeap = new PriorityQueue<>(Comparator.comparingInt(lhs -> lhs.end));
-        minHeap.add(meetings.get(0));
-        for (int i = 1; i < meetings.size(); i++) {
-            Meeting current = meetings.get(i);
+        for (Meeting current : meetings) {
             Meeting earliest = minHeap.poll();
+            if (earliest == null) {
+                minHeap.add(current);
+                continue;
+            }
             if (current.start >= earliest.end) {
                 earliest.end = current.end;
             } else {
