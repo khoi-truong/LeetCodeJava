@@ -2,17 +2,17 @@ package com.leetcode.cyclicSort;
 
 public class FindDuplicate {
     public static int findNumber(int[] nums) {
-        int i = 0;
-        while (i < nums.length) {
-            if (nums[i] != i + 1) {
-                int j = nums[i] - 1;
-                if (nums[i] != nums[j]) {
-                    swap(nums, i, j);
+        int index = 0;
+        while (index < nums.length) {
+            if (nums[index] != index + 1) {
+                int correctIndex = nums[index] - 1;
+                if (nums[index] != nums[correctIndex]) {
+                    swap(nums, index, correctIndex);
                 } else {
-                    return nums[i];
+                    return nums[index];
                 }
             } else {
-                i++;
+                index++;
             }
         }
         return -1;
