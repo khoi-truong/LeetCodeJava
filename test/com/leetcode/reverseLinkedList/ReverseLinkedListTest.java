@@ -3,6 +3,7 @@ package com.leetcode.reverseLinkedList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class ReverseLinkedListTest {
 
@@ -19,5 +20,6 @@ public class ReverseLinkedListTest {
         assertEquals(output.next.next.value, 6);
         assertEquals(output.next.next.next.value, 4);
         assertEquals(output.next.next.next.next.value, 2);
+        assertNull(output.next.next.next.next.next);
     }
 }
